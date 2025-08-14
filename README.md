@@ -1,4 +1,5 @@
 Install by insert the following in your local MCP host configuration file:
+...json
   "mcpServers": {
     "Chess": {
       "command": "uvx",
@@ -7,4 +8,6 @@ Install by insert the following in your local MCP host configuration file:
         "git+https://github.com/JerryZiyuJin/chess-mcp.git",
 		"chess"
       ]
-    },	  	
+    }
+  }
+...	  	
